@@ -1,0 +1,11 @@
+version: '3'
+services:
+  back:
+    image: chargeutile/mlops_back:latest
+    ports:
+      - "8080:5000"
+    environment:
+      CURRENT_ENVIRONMENT: development
+  front:
+    image: chargeutile/mlops_front:latest
+   
