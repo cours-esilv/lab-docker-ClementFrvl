@@ -1,0 +1,2 @@
+docker stop mlops_front
+docker stop mlops_back
